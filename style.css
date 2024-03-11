@@ -1,0 +1,130 @@
+body{
+    background-color: #FDFBF8
+    line-height 1.5;
+    padding: 1em 2em;
+    color: #0e0d0d;
+    font-family: "Open Sans", sans-serif; /* schriftart */
+    }
+
+    .open-sans {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: normal; 
+      font-style: normal;
+      font-variation-settings: normal 100; 
+  }
+  
+  h2 {
+    margin-top: 0em;
+    padding-top: 0em;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 70px ;
+    margin-top: 0px;
+  }
+
+  h1,
+ h2,
+ strong {
+  color: #0e0d0d;
+}
+
+
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image { /* skalierung der bilder*/
+  flex: 1 1 25%; /*  Breite der Bilder */
+  margin: 20px; /* Abstand zwischen den Bildern */
+  transform: scale(1); /* Zurücksetzen der Transformation */
+  transition: transform 0.3s;
+}
+.image img {
+    width: 100%;
+    height: auto;
+  }
+
+.image:hover { /* beim drüber gehen mit der maus wird das bild größer*/
+  transform: scale(1.2);
+}
+
+
+/*pfeil*/
+  .little_image img {
+    width: 70px; 
+    height: auto; 
+    
+}
+
+/* perspektive*/
+.image_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Zentriert die Elemente horizontal */
+}
+
+
+
+.image_wrapper_left img {
+  float: left;
+  max-width: 25%; /* Maximale Breite der Bilder */
+  height: auto;
+  display: block; /* Damit die Bilder nicht inline bleiben */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+
+}
+
+.image_wrapper_right img {
+  float: right;
+  max-width: 25%; /* Maximale Breite der Bilder */
+  height: auto;
+  display: block; /* Damit die Bilder nicht inline bleiben */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  }
+
+  
+
+  .text_wrapper {
+    overflow: hidden;
+  }
+
+.image_wrapper_big img {
+  max-width: 40%; /* Maximale Breite der Bilder */
+  height: auto;
+  display: block; /* Damit die Bilder nicht inline bleiben */
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image_wrapper p {
+  margin-top: 10px; /* Abstand über dem Text */
+}
+
+@media (max-width: 600px) {
+  .image_wrapper {
+    width: 50%; /* Elemente über die gesamte Breite */
+    text-align: center; /* Zentriert Text horizontal */
+  }
+
+  .image_wrapper img {
+    max-width: 50%; /* Maximale Breite der Bilder */
+    height: auto;
+    display: block; /* Damit die Bilder nicht inline bleiben */
+  }
+
+  .image_wrapper p {
+    margin-top: 10px; /* Abstand über dem Text */
+  }
+}

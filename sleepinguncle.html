@@ -21,51 +21,51 @@
         <img src="assets/images/sleeping_uncle02.png" alt="">
         </div>
         <p>Das Semester haben wir mit einem großen Gruppenprojekt beendet. "sleeping uncle" ist ein Spiel, welches in einem physischen Raum 
-            gespielt wird, über eine Projektion reagiert ein animiertes Monster auf die Position des Spielenden.
+            gespielt wird. Über eine Projektion reagiert ein animiertes Monster auf die Position des Spielenden.
             Ziel des Spieles ist es, sich durch den Raum zu bewegen, und so ohne das Monster aufzuwecken zu einem Sandwich zu gelangen.
-            Spielort ist ein mit Zwischenwänden und und einzelnen Einrichtungsgegenständen gestalteter Raum, dessen Boden komplett mit verkabelten 
+            Spielort ist ein mit Zwischenwänden und einzelnen Einrichtungsgegenständen gestalteter Raum, dessen Boden komplett mit verkabelten 
             Platten verlegt ist. <br>
-            Jede Platte führt zu einer bestimmte Reaktion des Monsters: wärend es manchmal ruhig weiter schläft oder durch Geräusche in
-            einen unruhigen Schlaf gelangt, wacht es durch andere Platten plötzlich auf. Wenn die spielende Person es schafft, bis zum Ende zu kommen
+            Jede Platte führt zu einer bestimmte Reaktion des Monsters: während es manchmal ruhig weiter schläft oder durch Geräusche in
+            einen unruhigen Schlaf gelangt, wacht es durch andere Platten plötzlich auf. Wenn die spielende Person es schafft, bis zum Ende zu kommen,
             ohne, dass der "sleeping uncle" aufwacht, drückt sie auf einen Button in Form eines Sandwiches und hat gewonnen. 
             Die Platten steuern ein Arduino Bord an, welches auf den Code zugreift und die dementsprechende Reaktion als Audio und
-            als Video wiedergibt.
+            Video wiedergibt.
         </p>
         <h2>Herangehensweise</h2>
         <p> Da wir bei dem Projekt mit unserem kompletten Kurs zusammengearbeitet haben, fingen wir zuerst mit einer intensiven Ideenfindung an.
-            Durch viele unterschiedliche Menschen treffen natürlich auch die unterschiedlichsten Ideen und Vostellungen aufeinander, was zu vielen 
-            Diskussionen und geführt hat. Nach einigen verworfenen Ideen haben wir uns dann auf das Spiel geeinigt, dessen genaue Umsetztung sich im 
+            Durch viele unterschiedliche Menschen treffen natürlich auch die unterschiedlichsten Ideen und Vorstellungen aufeinander, was zu vielen 
+            Diskussionen geführt hat. Nach einigen verworfenen Ideen haben wir uns dann auf das Spiel geeinigt, dessen genaue Umsetzung sich im 
             Prozess entwickelt hat. <br>
-            Zudem mussten wir Teams bilden welche für das Design, den frontend Code, den hartware code, das physische Bauen sowie die Dokumentation
+            Zudem mussten wir Teams bilden, welche für das Design, den Frontend Code, den Hardware code, das physische Bauen sowie die Dokumentation
             zuständig waren. <br>
-            Nach einigem Abstimmungen und Kompromissen hatte jedes Team mindestens zwei TeilnehmerInnen. <br>
+            Nach einigen Abstimmungen und Kompromissen hatte jedes Team mindestens zwei TeilnehmerInnen. <br>
             Die Abstimmungen innerhalb der Teams als auch eine gute Zusammenarbeit der unterschiedlichen Aufgabenfelder war manchmal nicht ganz einfach, 
-            aber hat am Ende doch funktioniert. 
+            hat aber am Ende doch funktioniert. 
         </p>
 
         <h2>Frontend</h2>
-        <p>Im Team frontend waren wir dafür zuständig, den Code zu schreiben der dafür sorgt, welches Video und welche Geräusche wann abgespielt werden. <br>
-            So musste sichergestellt das die Projektion bei jeder möglichen Kombinationen der Platten problemlos funktioniert.
-            Im Wesentlichten war es also wichtig dafür zu sorgen das bestimmte Videos von anderen unterbrochen werden und Audios sich ändern oder
-            trotz eines wechselden Videos weiterlaufen.
-            Zudem haben wir für flüssige Übergänge der Videos und Audios gesorgt, in dem wir sie vorab zugeschnitten haben. <br> <br>
+        <p>Im Team Frontend waren wir dafür zuständig, den Code zu schreiben der dafür sorgt, welches Video und welche Geräusche wann abgespielt werden. <br>
+            So musste sichergestellt, dass die Projektion bei jeder möglichen Kombinationen der Platten problemlos funktioniert.
+            Im Wesentlichen war es also wichtig dafür zu sorgen, dass bestimmte Videos von anderen unterbrochen werden und Audios sich ändern oder
+            trotz eines wechselnden Videos weiterlaufen.
+            Zudem haben wir für flüssige Übergänge der Videos und Audios gesorgt, indem wir sie vorab zugeschnitten haben. <br> <br>
             Wir haben damit angefangen, die konkreten Aktionen des Monsters festzulegen, um die Anzahl der Audios und Videos zu kennen.
-            Dafür haben wir besonders mit dem Design Team zusammengearbeitet um sicherzustellen, dass ihre animieren Videos, 
+            Dafür haben wir besonders mit dem Design Team zusammengearbeitet, um sicherzustellen, dass ihre animierten Videos, 
             genau mit unserem Code übereinstimmen. <br>
-            Dann ging es an das Herausfinden wie wir den Code mithilfe von Buttons und Platzhalter Videos und Audios am besten im 
+            Dann ging es an das Herausfinden, wie wir den Code mithilfe von Buttons und Platzhalter-Videos und -Audios am besten im 
             p5.js Editor aufbauen.
-            Nachdem wir das geschafft haben und es so geordnet haben, dass wir damit gut weiterarbeiten können ging es an das Raussuchen
+            Nachdem wir das geschafft und so geordnet haben, dass wir damit gut weiterarbeiten konnten, ging es an das Raussuchen
             von passenden Audios und das Einfügen der ersten fertig animierten Videos. <br>
-            Als dann alle Videos fertig waren animiert waren, haben wir uns dazu entschieden dort wo es möglich war, Video und Audio außerhalb des Codes 
-            zusammenzuschneiden um den Code einfacher zu machen und Fehler zu vermeiden.
-            Das hat dazu geführt, dass wir teilweise nochmal andere Audios rausgesucht haben die besser auf die Animationen gepasst haben. <br>
-            Zum Schluss haben wir dann die Buttons aus unserem Code durch das vom Hardwear Team bespielte Arduino Bord ersetzt.
+            Als dann alle Videos fertig animiert waren, haben wir uns dazu entschieden, die zueinander passenden Videos und Audios außerhalb des Codes 
+            zusammenzuschneiden. Dies diente zur vereinfachung des Codes und zur Vermeidung von Fehlern.
+            Das hat dazu geführt, dass wir teilweise nochmal andere Audios raussuchten, die besser auf die Animationen gepasst haben. <br>
+            Zum Schluss haben wir dann die Buttons aus unserem Code durch das vom Hardware Team bespielte Arduino Bord ersetzt.
             Unseren fertigen Code findet man   
 
             <a href="https://github.com/hbk-bs/little-little-creatures/blob/main/server/public/sketch.js">hier.</a> <br>
             
             Der untenstehende Frame zeigt den Code wie er mit den Buttons funktioniert.
-            Einfach auf Play drücken und dann die unterschiedlichen Ereignisse anklicken. 
+            Nach dem Drücken des Play Buttons, können die unterschiedlichen Ereignisse angeklickt werden. 
         </p>
         
             <div class="frame">
@@ -73,15 +73,16 @@
             </div>
 
         <h2>Fazit</h2>
-        <p> Das zusammenarbeiten in einer so großen Gruppe war auf jeden Fall eine Herausforderung, auch durch das gleichzeitige arbeiten musste man sich gut 
-            abstimmen und Zwischenlösungen finden bis die benötigten Teile der anderen Teams fertig waren.
+        <p> Das Zusammenarbeiten in einer so großen Gruppe war auf jeden Fall eine Herausforderung, auch durch das gleichzeitige Arbeiten musste man sich gut 
+            abstimmen und Zwischenlösungen finden, bis die benötigten Teile der anderen Teams fertig waren.
             Mir hat es sehr gut gefallen, dass wir das digitale und physische zusammengebracht haben.
-            Das Coden hat besonders durchs gemeinsame arbeiten gut geklappt auch wenn es immer mal zu kleinen Hürden kam.
+            Das Coden hat besonders durch das gemeinsame Arbeiten gut geklappt, auch wenn es immer mal zu kleinen Hürden kam.
             Am Ende haben alle Teams es geschafft das gemeinsame Projekt auf die Füße zu stellen und ich finde das Ergebnis kann sich zeigen lassen.
-            Es ist ein bisschen schade, dass das Spiel an einen bestimmten Ort gebunden ist und es wäre sehr cool noch eine mobile Version zu entwickeln. 
+            Es ist ein bisschen schade, dass das Spiel an einen bestimmten Ort gebunden ist. 
+            Aus diesem Grund wäre es praktisch, eine mobile Version zu entwickeln. 
             <br><br>
         </p>
 
-        
+
 </body>
 </html>

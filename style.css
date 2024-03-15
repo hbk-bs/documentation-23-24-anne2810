@@ -77,16 +77,16 @@ h3 {
 .image_gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Zentriert die Elemente horizontal */
+  justify-content: center; 
 }
 
 
 
 .image_wrapper_left img {
   float: left;
-  max-width: 25%; /* Maximale Breite der Bilder */
+  max-width: 25%; 
   height: auto;
-  display: block; /* Damit die Bilder nicht inline bleiben */
+  display: block; 
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -96,9 +96,9 @@ h3 {
 
 .image_wrapper_right img {
   float: right;
-  max-width: 25%; /* Maximale Breite der Bilder */
+  max-width: 25%; 
   height: auto;
-  display: block; /* Damit die Bilder nicht inline bleiben */
+  display: block; 
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -111,9 +111,9 @@ h3 {
   }
 
 .image_wrapper_big img {
-  max-width: 40%; /* Maximale Breite der Bilder */
+  max-width: 40%; 
   height: auto;
-  display: block; /* Damit die Bilder nicht inline bleiben */
+  display: block; 
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: auto;
@@ -121,23 +121,23 @@ h3 {
 }
 
 .image_wrapper p {
-  margin-top: 10px; /* Abstand über dem Text */
+  margin-top: 10px; 
 }
 
 @media (max-width: 600px) {
   .image_wrapper {
-    width: 50%; /* Elemente über die gesamte Breite */
-    text-align: center; /* Zentriert Text horizontal */
+    width: 50%; 
+    text-align: center; 
   }
 
   .image_wrapper img {
-    max-width: 50%; /* Maximale Breite der Bilder */
+    max-width: 50%; 
     height: auto;
-    display: block; /* Damit die Bilder nicht inline bleiben */
+    display: block; 
   }
 
   .image_wrapper p {
-    margin-top: 10px; /* Abstand über dem Text */
+    margin-top: 10px; 
   }
   
 }
@@ -160,9 +160,9 @@ h3 {
 
 .image_wrapper_tools img {
   float: left;
-  max-width: 30%; /* Maximale Breite der Bilder */
+  max-width: 30%; 
   height: auto;
-  display: block; /* Damit die Bilder nicht inline bleiben */
+  display: block; 
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -170,9 +170,9 @@ h3 {
 }
 
 .image_wrapper_su img {
-  max-width: 40%; /* Maximale Breite der Bilder */
+  max-width: 40%; 
   height: auto;
-  display: block; /* Damit die Bilder nicht inline bleiben */
+  display: block; 
   margin-top: -20px;
   margin-bottom: 10px;
   margin-left: auto;
